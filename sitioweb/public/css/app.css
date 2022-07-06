@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d6efd;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.login h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+
+}
+
+.login form {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form button[type="submit"] {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.login form a{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.register {
+    width: 800px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.input-group {
+    width: 100%;
+
+}
+
+.dos-campos {
+    width: 50% !important;
+
+}
+
+.inputmargin {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.form-group-register {
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.marginbutton {
+    margin-top: 15px;
+
+}
